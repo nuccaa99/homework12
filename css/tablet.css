@@ -1,0 +1,47 @@
+@media (max-width: 625px) {
+
+    /* section */
+    .section {
+        padding: 32px 14px;
+    }
+
+    .section_form_container {
+        padding-inline: 0px;
+    }
+
+
+}
+
+
+@media (max-width: 520px) {
+
+    /* section */
+    .main_info_inputs {
+        column-gap: 8px;
+    }
+
+    .section_form_input {
+        width: 156px;
+
+    }
+
+    .section_form_txt,
+    .checkbox_label {
+        font-size: 14px;
+    }
+
+    .radio_input,
+    input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .radio_input_label {
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 104px;
+    }
+
+}

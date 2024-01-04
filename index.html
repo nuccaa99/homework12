@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/1c228abca5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -35,6 +36,48 @@
                 </button>
             </div>
         </header>
+        <!-- section -->
+        <section class="section">
+            <div class="section_form_container">
+                <h2 class="section_form_title">CONTACT US</h2>
+                <form name="form_two" class="section_form">
+                    <div class="main_info_inputs">
+                        <input type="text" class="section_form_input" name="NAME" placeholder="Name">
+                        <input type="email" class="section_form_input" name="EMAIL" placeholder="Email">
+                    </div>
+                    <div class="radio_container">
+                        <p class="section_form_txt radio">I have a delivery question about my orders</p>
+                        <div class="radio_wrapper">
+                            <input type="radio" name="question" id="radio1" value="radio1" class="radio_input">
+                            <label for="radio1" class="radio_input_label">I did not receive my order</label>
+                        </div>
+                        <div class="radio_wrapper">
+                            <input type="radio" name="question" id="radio2" value="radio2" class="radio_input">
+                            <label for="radio2" class="radio_input_label">My order is incorrect or arrived
+                                damaged</label>
+                        </div>
+                        <div class="radio_wrapper">
+                            <input type="radio" name="question" id="radio3" value="radio3" class="radio_input">
+                            <label for="radio3" class="radio_input_label">Cancel my order</label>
+                        </div>
+                        <div class="radio_wrapper">
+                            <input type="radio" name="question" id="radio4" value="radio4" class="radio_input">
+                            <label for="radio4" class="radio_input_label">Change my shipping address</label>
+                        </div>
+                    </div>
+                    <div class="textarea_container">
+                        <p class="section_form_txt">Please provide more details below.</p>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="checkbox_wrapper">
+                        <input type="checkbox" name="newsletter" id="checkbox" value="receive">
+                        <label for="checkbox" class="checkbox_label">I want to receive the newsletter</label>
+                    </div>
+                    <button type="submit" class="section_form_btn">SEND</button>
+                </form>
+            </div>
+
+        </section>
     </div>
 </body>
 

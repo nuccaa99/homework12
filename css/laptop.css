@@ -1,3 +1,14 @@
+@media (max-width: 1225px) {
+
+    /* section */
+    .section {
+        padding-inline: 40px;
+    }
+
+
+}
+
+
 @media (max-width: 990px) {
 
     /* header */
@@ -17,6 +28,11 @@
 
     .search_input_btn_img {
         width: 32px;
+    }
+
+    /* section */
+    .section_form_container {
+        padding-inline: 145px;
     }
 
 }
