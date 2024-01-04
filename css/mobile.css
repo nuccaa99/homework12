@@ -1,0 +1,30 @@
+@media (max-width: 380px) {
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+
+    .login_btn {
+        display: none;
+    }
+
+
+    .login_btn_user {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid var(--main-light-color);
+        background: transparent;
+
+    }
+
+    .cart_btn {
+        padding: 8px;
+    }
+
+
+}

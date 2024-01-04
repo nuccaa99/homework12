@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+:root {
+    --main-dark-color: #2E0230;
+    --main-light-color: #F30AEA;
+    --radio-box-color: rgba(243, 10, 234, 0.71);
+    --font-color: #B052B5;
+    --secondary-font-color: rgba(159, 142, 159, 0.71);
+    --main-border-color: rgba(176, 82, 181, 0.79);
+    --main-font: 'Inter', sans-serif;
+    --sec-font: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+
+header {
+    background: var(--main-dark-color);
+    padding: 34px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header_form {
+    display: flex;
+    position: relative;
+}
+
+.search_input {
+    width: 560px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--main-border-color);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    background: transparent;
+    padding-left: 16px;
+    font-family: var(--main-font);
+    color: var(--secondary-font-color);
+    font-size: 16px;
+    line-height: normal;
+}
+
+.search_input_btn {
+    cursor: pointer;
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 0px 8px 8px 0px;
+    background: var(--main-light-color);
+    position: absolute;
+    left: 512px;
+}
+
+.header_btn_wrapper {
+    display: flex;
+    column-gap: 8px;
+}
+
+.login_btn_user {
+    display: none;
+}
+
+.login_btn {
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 8px;
+    border: 1px solid var(--main-light-color);
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: var(--sec-font);
+}
+
+.cart_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 8px;
+    background: var(--main-light-color);
+}
