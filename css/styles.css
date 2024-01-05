@@ -136,7 +136,7 @@ header {
 .section_form {
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 24px;
 }
 
 /* name and email */
@@ -174,12 +174,11 @@ header {
     font-family: var(--sec-font);
     font-size: 16px;
     line-height: 26px;
-
 }
 
 
 .radio {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .radio_wrapper,
@@ -237,6 +236,8 @@ textarea {
     line-height: 26px;
 }
 
+/* checkbox */
+
 input[type=checkbox] {
     appearance: none;
     width: 24px;
@@ -257,7 +258,7 @@ input[type=checkbox]:checked::before {
 
 /* btn */
 .section_form_btn {
-    margin-top: 15px;
+    margin-top: 16px;
     padding: 19px 0px;
     border-radius: 16px;
     background: var(--main-light-color);

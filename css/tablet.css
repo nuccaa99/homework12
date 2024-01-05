@@ -6,7 +6,7 @@
     }
 
     .section_form_container {
-        padding-inline: 0px;
+        padding-inline: 6px;
     }
 
 
@@ -26,7 +26,8 @@
     }
 
     .section_form_txt,
-    .checkbox_label {
+    .checkbox_label,
+    .radio_input_label {
         font-size: 14px;
     }
 
@@ -34,10 +35,6 @@
     input[type=checkbox] {
         width: 20px;
         height: 20px;
-    }
-
-    .radio_input_label {
-        font-size: 14px;
     }
 
     textarea {
